@@ -1,3 +1,19 @@
 * {
     box-sizing: border-box;
 }
+
+:root {
+    --primary:#37B5FF;
+    --primary-light:#60C4FF;
+    --primary-lightest:#8ED4FE;
+    --primary-dark:#0Da5FF;
+    --primary-darkest:#029EFB;
+    --complement: #FFA02B;
+    --complement-light:#FFB457;
+    --complement-lightest:#FFC988;
+    --complement-dark:#FF8C00;
+    --complement-darkest:#FF8C00;
+
+    --font-main:#fff;
+    --font-secondary:#b4b4b4;
+}
