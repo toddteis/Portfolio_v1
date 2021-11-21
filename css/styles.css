@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
@@ -16,4 +18,9 @@
 
     --font-main:#fff;
     --font-secondary:#b4b4b4;
+}
+
+body {
+    font-family: 'Mukta', sans-serif;
+    height: 100vh;
 }
