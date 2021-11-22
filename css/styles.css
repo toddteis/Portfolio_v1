@@ -18,9 +18,55 @@
 
     --font-main:#fff;
     --font-secondary:#b4b4b4;
+    --font-tertiary:#313131;
+    --font-quaternary: #000000;
 }
 
 body {
     font-family: 'Mukta', sans-serif;
     height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--font-tertiary);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: var(--font-tertiary);
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a {
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: var(--font-quaternary);
+    font-weight: 900;
 }
