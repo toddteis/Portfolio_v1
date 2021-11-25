@@ -46,7 +46,7 @@ body {
 
 .navbar a {
     text-decoration: none;
-    color: var(--font-tertiary);
+    color: var(--font-quaternary);
     font-size: 24px;
     font-weight: 600;
     padding: 10px;
@@ -67,7 +67,7 @@ body {
 }
 
 .navbar a:hover {
-    color: var(--font-quaternary);
+    color: var(--font-tertiary);
     font-weight: 900;
 }
 
@@ -88,12 +88,32 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
     height: 60px;
     width: 100%;
     font-size: 14px;
+    background-color: var(--primary);
 }
 
-.socials {
-    color: var(--primary);
+footer ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.built-by {
+    padding-top: 10px;
+}
+
+.socials li {
+    padding: 0 10px;
+    font-size: 24px;
+}
+
+ion-icon {
+    color: var(--font-quaternary);
+}
+
+ion-icon:hover {
+    /* padding: 0px; */
+    font-size: 26px;
+    color: var(--font-tertiary);
 }
