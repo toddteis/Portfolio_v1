@@ -128,6 +128,7 @@ section#intro .intro-text {
 }
 
 .about-content a {
+    transition: ease-in 0.3s;
     text-decoration: none;
     color: var(--primary-darkest);
 }
@@ -221,8 +222,29 @@ section#intro .intro-text {
     justify-content: flex-end;
 }
 
+/* CONTACT SECTION */
+.contact {
+    background-color: #292929;
+}
 
+.contact h2, h1 {
+    color: var(--font-main);
+}
 
+.contact a {
+    margin: 40px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: var(--font-main);
+    font-size: 16px;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+    color: var(--font-quaternary);
+    font-weight: 900;
+}
 /* FOOTER SECTION */
 
 footer {
@@ -253,11 +275,11 @@ footer ul {
     font-size: 24px;
 }
 
-ion-icon {
+footer ion-icon {
     color: var(--font-quaternary);
 }
 
-ion-icon:hover {
+footer ion-icon:hover {
     font-size: 26px;
     color: var(--font-tertiary);
 }
