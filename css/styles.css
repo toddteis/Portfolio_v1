@@ -137,6 +137,44 @@ section#intro .intro-text {
     color: var(--font-quaternary);
 }
 
+/* SKILLS SECTION */
+
+.skills-text {
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.language-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills-card {
+    background-color: var(--font-main);
+    border: 2px solid var(--primary-lightest);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-card:hover {
+    transition: ease-in 0.3s;
+    border-width: 3px;
+    box-shadow: 4px 4px 12px var(--primary-light);
+}
+
+.skills-card-img {
+    width: 100%;
+}
+
+
 /* FOOTER SECTION */
 
 footer {
