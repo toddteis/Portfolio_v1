@@ -144,7 +144,7 @@ section#intro .intro-text {
     margin-bottom: 30px;
 }
 
-.language-cards {
+.skills-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -173,6 +173,54 @@ section#intro .intro-text {
 .skills-card-img {
     width: 100%;
 }
+
+/* WORK SECTION */
+
+.work-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.work-card {
+    border: 2px solid chocolate;
+    display: flex;
+    width: 450px;
+    height: 254px;
+    margin: 20px;
+}
+
+.work-card-img {
+    height: 250px;
+    min-width: 250px;
+    background-color: burlywood;
+}
+
+.work-card-text {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.work-card-text .header {
+    font-size: 18px;
+    margin: 15px;
+}
+
+.work-card-text .main {
+    font-size: 14px;
+    margin: 15px;
+}
+
+.work-card-text .footer {
+    font-size: 12px;
+    margin: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
 
 
 /* FOOTER SECTION */
