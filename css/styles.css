@@ -251,7 +251,24 @@ section#contact h1 {
 
 /* RESUME SECTION */
 
+.resume a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: var(--font-quaternary);
+    font-size: 16px;
+}
 
+.resume a:hover {
+    text-decoration: underline;
+    color: var(--font-tertiary);
+    font-weight: 900;
+}
+
+.resume a:visited {
+    text-decoration: none;
+    color: var(--font-tertiary);
+}
 
 /* FOOTER SECTION */
 
