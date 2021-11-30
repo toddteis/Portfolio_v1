@@ -178,8 +178,8 @@ section#intro .intro-text {
 .work-cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 80%;
+    justify-content: center;
+    width: 90%;
 }
 
 .work-card {
@@ -187,13 +187,14 @@ section#intro .intro-text {
     display: flex;
     width: 450px;
     height: 254px;
-    margin: 20px;
+    margin: 10px;
 }
 
 .work-card-img {
     height: 250px;
     min-width: 250px;
     background-color: burlywood;
+    background: url('/img/odinlandingpage.png') no-repeat center center/cover;
 }
 
 .work-card-text {
