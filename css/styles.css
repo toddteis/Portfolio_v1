@@ -184,6 +184,7 @@ section#intro .intro-text {
 
 .work-card {
     border: 2px solid chocolate;
+    border-radius: 5px;
     display: flex;
     width: 450px;
     height: 254px;
@@ -194,7 +195,8 @@ section#intro .intro-text {
     height: 250px;
     min-width: 250px;
     background-color: burlywood;
-    background: url('/img/odinlandingpage.png') no-repeat center center/cover;
+    background: url('/img/MyPost.png') no-repeat left center/cover;
+    border-radius: 3px;
 }
 
 .work-card-text {
@@ -205,13 +207,17 @@ section#intro .intro-text {
 }
 
 .work-card-text .header {
-    font-size: 18px;
+    font-size: 20px;
     margin: 15px;
 }
 
-.work-card-text .main {
-    font-size: 14px;
+.work-card-text .work-card-main {
+    font-size: 16px;
     margin: 15px;
+}
+
+.work-card-text .work-card-minor {
+    font-size: 12px;
 }
 
 .work-card-text .footer {
@@ -219,6 +225,18 @@ section#intro .intro-text {
     margin: 15px;
     display: flex;
     justify-content: flex-end;
+}
+
+.work-card-text .footer a {
+    text-decoration: none;
+    transition: ease-in 0.3s;
+    text-decoration: none;
+    color: var(--primary-darkest);
+}
+
+.work-card-text .footer a:hover {
+    text-decoration: underline;
+    color: var(--font-quaternary);
 }
 
 /* CONTACT SECTION */
