@@ -145,10 +145,14 @@ section#intro .intro-text {
     margin-bottom: 30px;
 }
 
+.skills h2 {
+    margin: 10px;
+}
 .skills-cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:center;
+    width: 30%;
 }
 
 .skills-card {
@@ -156,9 +160,9 @@ section#intro .intro-text {
     border: 2px solid var(--primary-lightest);
     border-radius: 10px;
     padding: 15px;
-    margin: 20px;
-    height: 150px;
-    width: 150px;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
     display: flex;
     flex-direction: column;
 }
@@ -166,7 +170,7 @@ section#intro .intro-text {
 .skills-card:hover {
     transition: ease-in 0.3s;
     border-width: 3px;
-    box-shadow: 4px 4px 12px var(--primary-light);
+    box-shadow: 4px 4px 8px var(--primary-light);
 }
 
 .skills-card-img {
@@ -339,6 +343,9 @@ footer ion-icon:hover {
         margin-bottom: 10px;
     }
 
+    .skills-cards {
+        width: 40%;
+    }
     .work-cards {
         width: 85%;
     }
@@ -381,6 +388,10 @@ footer ion-icon:hover {
     h2 {
         font-size: 20px;
         margin-bottom: 15px;
+    }
+
+    .skills-cards {
+        width: 50%;
     }
 
     .about-content {
@@ -434,6 +445,15 @@ footer ion-icon:hover {
         margin-bottom: 10px;
     }
 
+    .skills-text {
+        width: 40%;
+        margin-bottom: 20px;
+    }
+
+    .skills-cards {
+        width: 60%;
+    }
+
     .about-content {
         width: 60%;
     }
@@ -481,10 +501,19 @@ footer ion-icon:hover {
     }
     
     h2 {
-        font-size: 12px;
+        font-size: 16px;
         margin-bottom: 5px;
     }
     
+    .skills-text {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .skills-cards {
+        width: 90%;
+    }
+
     .about-content {
         width: 90%;
     }
@@ -527,6 +556,25 @@ footer ion-icon:hover {
         margin-bottom: 5px;
     }
     
+    .skills-text {
+        
+        margin-bottom: 10px;
+    }
+
+    .skills-cards {
+        width: 90%;
+    }
+
+    .skills-card {
+        border-radius: 10px;
+        padding: 5px;
+        margin: 5px;
+        height: 80px;
+        width: 80px;
+        display: flex;
+        flex-direction: column;
+    }
+
     .about-content {
         width: 95%;
         font-size: 16px;
