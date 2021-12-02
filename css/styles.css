@@ -179,21 +179,21 @@ section#intro .intro-text {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 90%;
+    width: 80%;
 }
 
 .work-card {
     border: 2px solid chocolate;
     border-radius: 5px;
     display: flex;
-    width: 450px;
+    width: 400px;
     height: 254px;
     margin: 10px;
 }
 
 .work-card-img {
-    height: 250px;
-    min-width: 250px;
+    height: 100%;
+    width: 100%;
     background-color: burlywood;
     background: url('/img/MyPost.png') no-repeat left center/cover;
     border-radius: 3px;
@@ -324,4 +324,190 @@ footer ion-icon {
 footer ion-icon:hover {
     font-size: 26px;
     color: var(--font-tertiary);
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1536) {
+    h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    
+    h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .work-cards {
+        width: 85%;
+    }
+
+    .work-card {
+        width: 250px;
+        height: 200px;
+        margin: 10px;
+    }
+
+    .work-card-text .header {
+        font-size: 18px;
+        margin: 10px;
+    }
+    
+    .work-card-text .work-card-main {
+        font-size: 16px;
+        margin: 10px;
+    }
+    
+    .work-card-text .work-card-minor {
+        font-size: 10px;
+    }
+    
+    .work-card-text .footer {
+        font-size: 12px;
+        margin: 10px;
+
+
+    }
+
+}
+
+@media screen and (max-width: 1366px) {
+    h1 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    
+    h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .work-cards {
+        width: 90%;
+    }
+
+    .work-card {
+        width: 250px;
+        height: 200px;
+        margin: 10px;
+    }
+
+    .work-card-text .header {
+        font-size: 18px;
+        margin: 10px;
+    }
+    
+    .work-card-text .work-card-main {
+        font-size: 16px;
+        margin: 10px;
+    }
+    
+    .work-card-text .work-card-minor {
+        font-size: 10px;
+    }
+    
+    .work-card-text .footer {
+        font-size: 12px;
+        margin: 10px;
+
+
+    }
+}
+
+@media screen and (max-width: 1024) {
+    h1 {
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+    
+    h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .work-cards {
+        width: 95%;
+    }
+
+    .work-card {
+        width: 250px;
+        height: 200px;
+        margin: 10px;
+    }
+
+    .work-card-text .header {
+        font-size: 18px;
+        margin: 10px;
+    }
+    
+    .work-card-text .work-card-main {
+        font-size: 16px;
+        margin: 10px;
+    }
+    
+    .work-card-text .work-card-minor {
+        font-size: 10px;
+    }
+    
+    .work-card-text .footer {
+        font-size: 12px;
+        margin: 10px;
+
+
+    }
+}
+
+@media screen and (max-width: 414px) {
+    h1 {
+        font-size: 32px;
+        margin-bottom: 5px;
+    }
+    
+    h2 {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    
+    .work-card-img {
+        display: none;
+    }
+
+    .work-card {
+        width: 250px;
+        height: 150px;
+        margin: 10px;
+    }
+
+    .work-card-text .header {
+        font-size: 18px;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    h1 {
+        font-size: 36px;
+        margin-bottom: 5px;
+    }
+    
+    h2 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    
+    .work-card-img {
+        display: none;
+    }
+
+    .work-card {
+        width: 250px;
+        height: 150px;
+        margin: 10px;
+    }
+
+    .work-card-text .header {
+        font-size: 18px;
+        margin: 5px;
+    }
 }
