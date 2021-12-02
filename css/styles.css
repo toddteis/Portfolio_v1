@@ -532,10 +532,12 @@ footer ion-icon:hover {
     .work-card-img {
         display: none;
     }
-
+    .work-cards {
+        width: 90%;
+    }
     .work-card {
-        width: 250px;
-        height: 150px;
+        width: 90%;
+        height: auto;
         margin: 10px;
     }
 
@@ -595,14 +597,33 @@ footer ion-icon:hover {
         display: none;
     }
 
+    .work-cards {
+        width: 90%;
+    }
+
     .work-card {
-        width: 250px;
-        height: 150px;
-        margin: 10px;
+        width: 90%;
+        height: auto;
+        margin: 3px;
     }
 
     .work-card-text .header {
-        font-size: 18px;
+        font-size: 16px;
+        margin: 3px;
+    }
+
+    .work-card-text .work-card-main {
+        font-size: 12px;
+        margin: 3px;
+    }
+    
+    .work-card-text .work-card-minor {
+        font-size: 9px;
         margin: 5px;
+    }
+    
+    .work-card-text .footer {
+        font-size: 10px;
+        margin: 3px;
     }
 }
