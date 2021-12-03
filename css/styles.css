@@ -494,6 +494,21 @@ footer ion-icon:hover {
     }
 }
 
+@media screen and (max-width: 768px) {
+    .navbar a {
+        font-size: 18px;
+        padding: 5px;
+    }
+    
+    .navbar ul li {
+        margin-left: 6px;
+    }
+    
+    .navbar ul li a {
+        font-size: 14px;
+    }
+}
+
 @media screen and (max-width: 414px) {
     h1 {
         font-size: 32px;
@@ -505,6 +520,19 @@ footer ion-icon:hover {
         margin-bottom: 5px;
     }
     
+    .navbar a {
+        font-size: 18px;
+        padding: 4px;
+    }
+    
+    .navbar ul li {
+        margin-left: 4px;
+    }
+    
+    .navbar ul li a {
+        font-size: 12px;
+    }
+
     .skills-text {
         width: 90%;
         margin-bottom: 20px;
