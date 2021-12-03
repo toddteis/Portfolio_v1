@@ -199,8 +199,23 @@ section#intro .intro-text {
     height: 100%;
     width: 100%;
     background-color: burlywood;
-    background: url('/img/MyPost.png') no-repeat left center/cover;
     border-radius: 3px;
+}
+
+.odinlandingpage {
+    background: url('/img/odinlandingpage.png') no-repeat left center/cover;
+}
+
+.rockpaperscissors {
+    background: url('/img/rockpaperscissors.png') no-repeat center center/cover;
+}
+
+.portfolioV1 {
+    background: url('/img/portfolioV1.png') no-repeat center center/cover;
+}
+
+.googlehomepage {
+    background: url('/img/googlehomepage.png') no-repeat center center/cover;
 }
 
 .work-card-text {
@@ -354,6 +369,10 @@ footer ion-icon:hover {
         width: 250px;
         height: 200px;
         margin: 10px;
+    }
+
+    .work-card-text {
+        width: 100%;
     }
 
     .work-card-text .header {
