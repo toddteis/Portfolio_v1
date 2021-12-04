@@ -195,7 +195,7 @@ section#intro .intro-text {
 }
 
 .work-card {
-    border: 2px solid chocolate;
+    border: 3px solid var(--primary-lightest);
     border-radius: 5px;
     display: flex;
     width: 400px;
@@ -206,8 +206,8 @@ section#intro .intro-text {
 .work-card-img {
     height: 100%;
     width: 100%;
-    background-color: burlywood;
-    border-radius: 3px;
+    background-color: var(--font-main);
+    border-radius: 2px;
 }
 
 .odinlandingpage {
@@ -227,14 +227,16 @@ section#intro .intro-text {
 }
 
 .work-card-text {
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: var(--font-main);
 }
 
 .work-card-text .header {
     font-size: 20px;
+    font-weight: 500;
     margin: 15px;
 }
 
