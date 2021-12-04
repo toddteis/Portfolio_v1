@@ -201,6 +201,11 @@ section#intro .intro-text {
     width: 400px;
     height: 254px;
     margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.work-card:hover {
+    transform: scale(1.02);
 }
 
 .work-card-img {
@@ -604,7 +609,7 @@ footer ion-icon:hover {
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 375px) {
     h1 {
         font-size: 28px;
         margin-bottom: 5px;
