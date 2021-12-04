@@ -178,12 +178,13 @@ section#intro .intro-text {
     width: 100px;
     display: flex;
     flex-direction: column;
+    box-shadow: 0 8px 15px 1px rgb(0 0 0 / 20%);
+    transition: ease-in 0.3s;
 }
 
 .skills-card:hover {
-    transition: ease-in 0.3s;
-    border-width: 3px;
-    box-shadow: 4px 4px 8px var(--primary-light);
+    
+    transform: scale(1.05);
 }
 
 .skills-card-img {
@@ -207,6 +208,7 @@ section#intro .intro-text {
     height: 254px;
     margin: 10px;
     transition: all 0.3s ease-in-out;
+    box-shadow: 0 8px 15px 1px rgb(0 0 0 / 20%);
 }
 
 .work-card:hover {
