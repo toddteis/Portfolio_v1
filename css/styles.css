@@ -132,10 +132,6 @@ section#intro .intro-text {
     background-position: center center;
 }
 
-/* .about img {
-    background-position: center center;
-} */
-
 .about-content {
     width: 40%;
     font-size: 18px;
@@ -602,6 +598,18 @@ footer ion-icon:hover {
         margin: 7px;
     }
 
+    footer {
+        position: fixed;
+        bottom: 0;
+        flex-direction: row;
+        height: 30px;
+        width: 100%;
+        font-size: 12px;
+    }
+    .socials li {
+        padding: 0 10px;
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 414px) {
@@ -661,7 +669,7 @@ footer ion-icon:hover {
     .work-card {
         width: 90%;
         height: auto;
-        margin: 10px;
+        margin: 5px;
     }
 
     .work-card-text .header {
