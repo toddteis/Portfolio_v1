@@ -573,6 +573,10 @@ footer ion-icon:hover {
 }
 
 @media screen and (max-width: 768px) {
+    .navbar {
+        height: 40px;
+    }
+    
     .navbar a {
         font-size: 18px;
         padding: 5px;
