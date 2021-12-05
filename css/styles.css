@@ -237,19 +237,19 @@ section#intro .intro-text {
 }
 
 .odinlandingpage {
-    background: url('/img/odinlandingpage.png') no-repeat left center/cover;
+    background: url('../img/odinlandingpage.png') no-repeat left center/cover;
 }
 
 .rockpaperscissors {
-    background: url('/img/rockpaperscissors.png') no-repeat center center/cover;
+    background: url('../img/rockpaperscissors.png') no-repeat center center/cover;
 }
 
 .portfolioV1 {
-    background: url('/img/portfolioV1.png') no-repeat center center/cover;
+    background: url('../img/portfolioV1.png') no-repeat center center/cover;
 }
 
 .googlehomepage {
-    background: url('/img/googlehomepage.png') no-repeat center center/cover;
+    background: url('../img/googlehomepage.png') no-repeat center center/cover;
 }
 
 .work-card-text {
