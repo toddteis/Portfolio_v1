@@ -302,37 +302,33 @@ section#contact h1 {
     color: var(--font-main);
 }
 
-.contact a {
+.contact-link {
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     color: var(--font-main);
     font-size: 16px;
 }
 
-.contact a:hover {
+.contact-link:hover {
     text-decoration: underline;
     color: var(--font-secondary);
-    font-weight: 900;
 }
 
 /* RESUME SECTION */
 
-.resume a {
+.resume-link {
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     color: var(--font-quaternary);
     font-size: 16px;
 }
 
-.resume a:hover {
+.resume-link:hover {
     text-decoration: underline;
     color: var(--font-tertiary);
-    font-weight: 900;
 }
 
-.resume a:visited {
+.resume-link:visited {
     text-decoration: none;
     color: var(--font-tertiary);
 }
