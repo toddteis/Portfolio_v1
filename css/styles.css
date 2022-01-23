@@ -232,6 +232,10 @@ section#intro .intro-text {
     border-radius: 2px;
 }
 
+.etchasketch {
+    background: url('../img/etchasketch.png') no-repeat left center/cover;
+}
+
 .odinlandingpage {
     background: url('../img/odinlandingpage.png') no-repeat left center/cover;
 }
