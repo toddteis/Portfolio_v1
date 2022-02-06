@@ -207,7 +207,7 @@ section#intro .intro-text {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 80%;
+    width: 100%;
 }
 
 .work-card {
@@ -230,6 +230,10 @@ section#intro .intro-text {
     width: 100%;
     background-color: var(--font-main);
     border-radius: 2px;
+}
+
+.calculator {
+    background: url('../img/Calculator.png') no-repeat left center/cover;
 }
 
 .etchasketch {
