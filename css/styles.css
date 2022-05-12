@@ -232,8 +232,20 @@ section#intro .intro-text {
     border-radius: 2px;
 }
 
+.admin-dashboard {
+    background: url('../img/admindashboard.png') no-repeat center center/cover;
+}
+
 .calculator {
     background: url('../img/Calculator.png') no-repeat center center/cover;
+}
+
+.book-library-app {
+    background: url('../img/booklibraryapp.png') no-repeat center center/cover;
+}
+
+.equalizer-landing-page {
+    background: url('../img/equilizerlandpage.png') no-repeat center center/cover;
 }
 
 .etchasketch {
