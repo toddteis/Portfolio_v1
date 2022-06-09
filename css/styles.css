@@ -232,6 +232,10 @@ section#intro .intro-text {
     border-radius: 2px;
 }
 
+.tic-tac-toe {
+    background: url('../img/tictactoe.png') no-repeat center center/cover;
+}
+
 .admin-dashboard {
     background: url('../img/admindashboard.png') no-repeat center center/cover;
 }
