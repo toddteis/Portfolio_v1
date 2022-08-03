@@ -471,8 +471,6 @@ footer ion-icon:hover {
     .work-card-text .footer {
         font-size: 12px;
         margin: 10px;
-
-
     }
 
 }
@@ -591,8 +589,6 @@ footer ion-icon:hover {
     .work-card-text .footer {
         font-size: 12px;
         margin: 10px;
-
-
     }
 }
 
@@ -637,6 +633,22 @@ footer ion-icon:hover {
     .socials li {
         padding: 0 10px;
         font-size: 16px;
+    }
+
+    .work-card {
+        width: 180px;
+        height: 150px;
+        margin: 5px;
+    }
+
+    .work-card-text .header {
+        font-size: 12px;
+        margin: 5px;
+    }
+
+    .work-card-text .work-card-main {
+        font-size: 10px;
+        margin: 2px;
     }
 }
 
@@ -695,14 +707,13 @@ footer ion-icon:hover {
         width: 90%;
     }
     .work-card {
-        width: 90%;
+        width: 360px;
         height: auto;
         margin: 5px;
     }
 
-    .work-card-text .header {
-        font-size: 18px;
-        margin: 5px;
+    .work-card-text {
+        width: 360px;
     }
 }
 
@@ -765,18 +776,8 @@ footer ion-icon:hover {
         height: auto;
         margin: 3px;
     }
-
-    .work-card-text .header {
-        font-size: 16px;
-        margin: 3px;
-    }
-
-    .work-card-text .work-card-main {
-        font-size: 12px;
-        margin: 3px;
-    }
     
-    .work-card-text .work-card-minor {
+    .work-card-text .work-card-minor .footer {
         font-size: 9px;
         margin: 5px;
     }
